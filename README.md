@@ -1,6 +1,6 @@
-# 🔮 Onix — AI Research Agent with RAG, Vision & Voice
+# 🔮 Axion — AI Research Agent with RAG, Vision & Voice
 
-Onix is a multi-tool AI research agent that combines **Retrieval-Augmented Generation (RAG)** over local PDF documents with **real-time web search**, **computer vision**, **voice output**, and access to multiple external APIs — all orchestrated through a LangGraph agent running entirely on local LLMs via Ollama.
+Axion is a multi-tool AI research agent that combines **Retrieval-Augmented Generation (RAG)** over local PDF documents with **real-time web search**, **computer vision**, **voice output**, and access to multiple external APIs — all orchestrated through a LangGraph agent running entirely on local LLMs via Ollama.
 
 ---
 
@@ -159,13 +159,13 @@ Drop PDF files into the `files/` directory. On the next run, the agent will auto
 Open `main.ipynb` in Jupyter / VS Code and run all cells. The final cell starts an interactive chat loop:
 
 ```
-Onix is ready.
+Axion is ready.
 Vision model : llava:7b
 Reasoning    : qwen3:14b
 Type 'quit' to exit.
 
 You: What does the Attention Is All You Need paper propose?
-Onix: ...
+Axion: ...
 ```
 
 ---
