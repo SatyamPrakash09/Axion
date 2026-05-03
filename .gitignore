@@ -12,6 +12,6 @@ wheels/
 rag_db
 files/*
 uv.lock
-tracked_file.json
 text.txt
 test.py
+tracked_files.json
