@@ -113,7 +113,7 @@ rag_web_search/
 ### 1. Clone & Install Dependencies
 
 ```bash
-git clone <repo-url>
+git clone "https://github.com/SatyamPrakash09/Axion.git"
 cd rag_web_search
 uv sync
 ```
