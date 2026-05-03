@@ -1,0 +1,25 @@
+[project]
+name = "rag-web-search"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "langchain-huggingface>=1.2.2",
+    "langchain>=1.2.17",
+    "langchain-community>=0.4.1",
+    "langchain-google-genai>=4.2.2",
+    "langchain-ollama>=1.1.0",
+    "langchain-text-splitters>=1.1.2",
+    "pypdf>=6.10.2",
+    "requests>=2.33.1",
+    "sentence-transformers>=5.4.1",
+    "langchain-tavily>=0.2.18",
+    "opencv-python>=4.13.0.92",
+    "langgraph>=1.1.10",
+    "pyttsx3>=2.99",
+    "kokoro>=0.9.4",
+    "soundfile>=0.13.1",
+    "sounddevice>=0.5.5",
+]
