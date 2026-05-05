@@ -42,16 +42,16 @@ User Query
            │
      ┌─────┴─────┐
      ▼           ▼
- ┌────────┐  ┌────────────────────────────────────┐
- │ask_rag │  │        External Tools               │
- │(always │  │  search_web  · get_job · news_search│
+ ┌────────┐  ┌──────────────────────────────────────┐
+ │ask_rag │  │        External Tools                │
+ │(always │  │  search_web  · get_job · news_search │
  │ first) │  │  search_papers · hackernews_search   │
  │        │  │  wikipedia_search · weather_search   │
  │  PDF   │  │  location_search · analyze_image     │
  │ChromaDB│  │  capture_webcam · detect_objects     │
  │        │  │  compare_images · read_text_in_image │
- └────────┘  │  reason_deeply                      │
-             └────────────────────────────────────┘
+ └────────┘  │  reason_deeply                       │
+             └──────────────────────────────────────┘
                         │
                         ▼
               ┌──────────────────┐
@@ -248,7 +248,3 @@ You: Search research papers on transformer architectures
 - **Camera** — Set `camera_index` in `.env` to match your webcam device index
 
 ---
-
-## 📄 License
-
-This project is for educational and research purposes.
