@@ -12,7 +12,8 @@ wheels/
 rag_db/**/*.bin
 rag_db/**/*.pickle
 rag_db/*.sqlite3
-files/*
+
+files/*.pdf
 uv.lock
 text.txt
 test.py

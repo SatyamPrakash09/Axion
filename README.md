@@ -88,13 +88,8 @@ User Query
 rag_web_search/
 ├── main.ipynb           # Main notebook — agent setup, tools, and chat loop
 ├── files/               # Drop PDF documents here for RAG ingestion
-│   ├── 1706.03762v7.pdf           # "Attention Is All You Need"
-│   ├── Harry_Potter_Part1_Book.pdf
-│   └── ... (7 PDFs tracked)
 ├── rag_db/              # ChromaDB persistent vector store
 ├── tracked_files.json   # MD5 hashes to detect new/changed PDFs
-├── text.txt             # Sample text data (Renewable Energy report)
-├── test.py              # Webcam connectivity test script
 ├── pyproject.toml       # Project metadata & dependencies
 ├── .env                 # API keys (not committed)
 ├── .gitignore
