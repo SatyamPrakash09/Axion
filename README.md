@@ -1,5 +1,8 @@
 # 🔮 Axion — AI Research Agent with RAG, Vision & Voice
+<img width="1983" height="793" alt="image" src="https://github.com/user-attachments/assets/3dc58d92-5006-4a6d-b7a7-b3a5c853f28a" />
 
+
+<br/>
 Axion is a multi-tool AI research agent that combines **Retrieval-Augmented Generation (RAG)** over local PDF documents with **real-time web search**, **computer vision**, **voice output**, and access to multiple external APIs — all orchestrated through a LangGraph agent running entirely on local LLMs via Ollama.
 
 ---
