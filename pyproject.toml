@@ -18,8 +18,8 @@ dependencies = [
     "langchain-tavily>=0.2.18",
     "opencv-python>=4.13.0.92",
     "langgraph>=1.1.10",
-    "pyttsx3>=2.99",
     "kokoro>=0.9.4",
     "soundfile>=0.13.1",
     "sounddevice>=0.5.5",
+    "matplotlib>=3.10.9",
 ]

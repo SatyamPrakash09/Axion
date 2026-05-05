@@ -9,7 +9,9 @@ wheels/
 # Virtual environments
 .venv
 .env
-rag_db
+rag_db/**/*.bin
+rag_db/**/*.pickle
+rag_db/*.sqlite3
 files/*
 uv.lock
 text.txt

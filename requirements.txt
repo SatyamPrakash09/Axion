@@ -1,0 +1,39 @@
+# Axion - RAG Web Search Requirements
+# Python >= 3.10
+
+# Jupyter
+ipykernel>=7.2.0
+
+# LangChain Core & Integrations
+langchain>=1.2.17
+langchain-community>=0.4.1
+langchain-text-splitters>=1.1.2
+langchain-huggingface>=1.2.2
+langchain-google-genai>=4.2.2
+langchain-ollama>=1.1.0
+langchain-tavily>=0.2.18
+
+# LangGraph
+langgraph>=1.1.10
+
+# Embeddings & NLP
+sentence-transformers>=5.4.1
+
+# PDF Parsing
+pypdf>=6.10.2
+
+# HTTP Requests
+requests>=2.33.1
+
+# Computer Vision
+opencv-python>=4.13.0.92
+
+# Text-to-Speech (Kokoro)
+kokoro>=0.9.4
+
+# Audio I/O
+soundfile>=0.13.1
+sounddevice>=0.5.1
+
+# Visualization
+matplotlib>=3.10.9
